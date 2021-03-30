@@ -1,6 +1,12 @@
-import validator from "validator"
+import "./styles/main.scss"
+import React from "react"
+import ReactDOM from "react-dom"
 
-console.log(validator.isEmail("jogn"))
+function App() {
+  return <h1>Hello from react</h1>
+}
+
+ReactDOM.render(<App />, document.getElementById("app"))
 
 if (module.hot) {
   module.hot.accept()
